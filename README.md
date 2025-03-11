@@ -64,10 +64,10 @@ At this point you can interact with the LLM via your Terminal just as you would 
 
 When you are done playing with the LLM, exit the llm and the shell and simply stop and remove the container.
 
-`/bye` # Exit the LLM
-`exit` # Exit the Shell
-`docker stop {CONTAINER_ID} && docker rm {CONTAINER_ID}` # Stop and remove the container
-`docker ps -a` # Verify container no longer exists, this should have no containers listed
+- `/bye` # Exit the LLM
+- `exit` # Exit the Shell
+- `docker stop {CONTAINER_ID} && docker rm {CONTAINER_ID}` # Stop and remove the container
+- `docker ps -a` # Verify container no longer exists, this should have no containers listed
 
 ### Cleanup Resources
 
